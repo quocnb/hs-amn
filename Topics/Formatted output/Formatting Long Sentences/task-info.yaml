@@ -1,0 +1,23 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: My name is %c. %s My age is %d My height is %.2fm
+  - text: My name is M. Anderson My age is 22 My height is 1.53m
+  - text: "name+age+height,'M',\"Anderson\",22,1.53"
+  - text: It will print an error
+files:
+  - name: src/Task.java
+    visible: true
+    text: |
+      // You can experiment here, it won’t be checked
+      
+      public class Task {
+        public static void main(String[] args) {
+          // put your code here
+        }
+      }
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/7053#comment
+status: Solved
+record: -1
+local_check: false

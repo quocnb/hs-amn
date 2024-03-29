@@ -1,0 +1,33 @@
+type: code
+files:
+  - name: src/Main.java
+    visible: true
+    text: |-
+      import java.util.Scanner;
+      
+      class EmployeeManagement {
+      
+          public static String createEmail(String name, String surname) {
+              // write your code here
+              return null;
+          }
+      
+          // Don't change the code below
+          public static void main(String[] args) {
+              Scanner scanner = new Scanner(System.in);
+              String name = scanner.next();
+              String surname = scanner.next();
+      
+              String completeEmail = createEmail(name, surname);
+      
+              System.out.println(completeEmail);
+          }
+      }
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/23735#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Wed, 27 Mar 2024 23:08:22 UTC"
+record: -1
+submission_language: java11
